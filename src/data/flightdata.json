@@ -1,0 +1,300 @@
+[
+    {
+        "id": "1",
+        "company": "US Airlines",
+        "duration": 590,
+        "segment": [
+            {
+                "duration": 590,
+                "departureTime": "2016-10-10T23:30-03:00",
+                "arrivalTime": "2016-10-11T22:20-04:00",
+                "origin": "GRU",
+                "destination": "JFK"
+            }
+        ]
+    },
+    {
+        "id": "2",
+        "company": "UK Flights",
+        "duration": 590,
+        "segment": [
+            {
+                "duration": 590,
+                "departureTime": "2016-10-10T11:30-03:00",
+                "arrivalTime": "2016-10-11T16:20-04:00",
+                "origin": "GRU",
+                "destination": "JFK"
+            }
+        ]
+    },
+    {
+        "id": "3",
+        "company": "Spice Jet",
+        "duration": 590,
+        "segment": [
+            {
+                "duration": 590,
+                "departureTime": "2016-10-10T01:30-03:00",
+                "arrivalTime": "2016-10-11T08:20-04:00",
+                "origin": "GRU",
+                "destination": "JFK"
+            }
+        ]
+    },
+    {
+        "id": "4",
+        "company": "UK Flights",
+        "duration": 590,
+        "segment": [
+            {
+                "duration": 590,
+                "departureTime": "2016-10-10T21:30-03:00",
+                "arrivalTime": "2016-10-11T06:09-04:00",
+                "origin": "GRU",
+                "destination": "JFK"
+            }
+        ]
+    },
+    {
+        "id": "5",
+        "company": "Spice Jet",
+        "duration": 590,
+        "segment": [
+            {
+                "duration": 590,
+                "departureTime": "2016-10-10T21:30-03:00",
+                "arrivalTime": "2016-10-11T06:20-04:00",
+                "origin": "GRU",
+                "destination": "JFK"
+            }
+        ]
+    },
+    {
+        "id": "6",
+        "company": "UK Flights",
+        "duration": 590,
+        "segment": [
+            {
+                "duration": 590,
+                "departureTime": "2016-10-10T04:30-03:00",
+                "arrivalTime": "2016-10-10T11:30-03:00",
+                "origin": "GRU",
+                "destination": "JFK"
+            }
+        ]
+    },
+    {
+        "id": "7",
+        "company": "Indigo",
+        "duration": 590,
+        "segment": [
+            {
+                "duration": 590,
+                "departureTime": "2016-10-10T21:30-03:00",
+                "arrivalTime": "2016-10-11T02:20-04:00",
+                "origin": "GRU",
+                "destination": "JFK"
+            }
+        ]
+    },
+    {
+        "id": "8",
+        "company": "US Airlines",
+        "duration": 590,
+        "segment": [
+            {
+                "duration": 590,
+                "departureTime": "2016-10-10T21:30-03:00",
+                "arrivalTime": "2016-10-11T15:20-04:00",
+                "origin": "GRU",
+                "destination": "JFK"
+            }
+        ]
+    },
+    {
+        "id": "9",
+        "company": "Indigo",
+        "duration": 590,
+        "segment": [
+            {
+                "duration": 590,
+                "departureTime": "2016-10-10T21:30-03:00",
+                "arrivalTime": "2016-10-11T06:20-04:00",
+                "origin": "GRU",
+                "destination": "JFK"
+            }
+        ]
+    },
+    {
+        "id": "11",
+        "company": "Indigo",
+        "duration": 590,
+        "segment": [
+            {
+                "duration": 590,
+                "departureTime": "2016-10-10T21:30-03:00",
+                "arrivalTime": "2016-10-11T06:20-04:00",
+                "origin": "GRU",
+                "destination": "JFK"
+            }
+        ]
+    },
+    {
+        "id": "12",
+        "company": "Air Asia",
+        "duration": 590,
+        "segment": [
+            {
+                "duration": 590,
+                "departureTime": "2016-10-10T21:30-03:00",
+                "arrivalTime": "2016-10-11T06:20-04:00",
+                "origin": "GRU",
+                "destination": "JFK"
+            }
+        ]
+    },
+    {
+        "id": "13",
+        "company": "UK Airlines",
+        "duration": 590,
+        "segment": [
+            {
+                "duration": 590,
+                "departureTime": "2016-10-10T21:30-03:00",
+                "arrivalTime": "2016-10-11T06:20-04:00",
+                "origin": "GRU",
+                "destination": "JFK"
+            }
+        ]
+    },
+    {
+        "id": "14",
+        "company": "Air Asia",
+        "duration": 590,
+        "segment": [
+            {
+                "duration": 590,
+                "departureTime": "2016-10-10T21:30-03:00",
+                "arrivalTime": "2016-10-11T06:20-04:00",
+                "origin": "GRU",
+                "destination": "JFK"
+            }
+        ]
+    },
+    {
+        "id": "15",
+        "company": "US Airlines",
+        "duration": 590,
+        "segment": [
+            {
+                "duration": 590,
+                "departureTime": "2016-10-10T21:30-03:00",
+                "arrivalTime": "2016-10-11T06:20-04:00",
+                "origin": "GRU",
+                "destination": "JFK"
+            }
+        ]
+    },
+    {
+        "id": "16",
+        "company": "Spice Jet",
+        "duration": 590,
+        "segment": [
+            {
+                "duration": 590,
+                "departureTime": "2016-10-10T09:30-03:00",
+                "arrivalTime": "2016-10-11T21:20-04:00",
+                "origin": "GRU",
+                "destination": "JFK"
+            }
+        ]
+    },
+    {
+        "id": "17",
+        "company": "Vistara",
+        "duration": 590,
+        "segment": [
+            {
+                "duration": 590,
+                "departureTime": "2016-10-10T23:30-03:00",
+                "arrivalTime": "2016-10-11T09:20-04:00",
+                "origin": "GRU",
+                "destination": "JFK"
+            }
+        ]
+    },
+    {
+        "id": "18",
+        "company": "Air Asia",
+        "duration": 590,
+        "segment": [
+            {
+                "duration": 590,
+                "departureTime": "2016-10-10T21:30-03:00",
+                "arrivalTime": "2016-10-11T06:20-04:00",
+                "origin": "GRU",
+                "destination": "JFK"
+            }
+        ]
+    },
+    {
+        "id": "19",
+        "company": "Indigo",
+        "duration": 590,
+        "segment": [
+            {
+                "duration": 590,
+                "departureTime": "2016-10-10T22:30-03:00",
+                "arrivalTime": "2016-10-11T06:10-04:00",
+                "origin": "GRU",
+                "destination": "JFK"
+            }
+        ]
+    },
+    {
+        "id": "20",
+        "company": "US Airlines",
+        "duration": 590,
+        "segment": [
+            {
+                "duration": 590,
+                "departureTime": "2016-10-10T22:30-03:00",
+                "arrivalTime": "2016-10-11T06:14-04:00",
+                "origin": "GRU",
+                "destination": "JFK"
+            }
+        ]
+    },
+    {
+        "id": "21",
+        "company": "Dalta",
+        "points": 20000,
+        "duration": 862,
+        "segment": [
+            {
+                "duration": 635,
+                "departureTime": "2016-10-16T20:25-03:00",
+                "arrivalTime": "2016-10-17T06:00-04:00",
+                "origin": "GRU",
+                "destination": "JFK",
+                "connectionDuration": 125
+            }
+        ]
+    },
+    {
+        "id": "22",
+        "company": "Aviana",
+        "points": 17000,
+        "duration": 1050,
+        "segment": [
+            {
+                "duration": 515,
+                "departureTime": "2016-10-10T21:25-03:00",
+                "arrivalTime": "2016-10-11T05:00-04:00",
+                "origin": "GRU",
+                "destination": "JFK",
+                "connectionDuration": 145
+            }
+        ]
+    }
+]

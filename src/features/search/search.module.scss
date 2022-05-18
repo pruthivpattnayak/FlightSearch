@@ -1,0 +1,110 @@
+.searchbox {
+    // margin: 2rem;
+    padding: 2rem;
+    background-color: #065eda;
+    color: white;
+
+    fieldset {
+        display: flex;
+        width: 100%;
+        border: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .field {
+        // border: 1px solid;
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+
+        .text {
+            font-size: 16px;
+            margin: 5px;
+        }
+        input {
+            padding: 8px;
+            font-size: 14px;
+            border-radius: 5px;
+            border: none;
+            margin: 5px;
+        }
+    }
+
+    .searchbutton {
+        display: block;
+        margin: auto;
+        margin-top: 1rem;
+    }
+}
+
+.resultpane {
+    display: flex;
+
+    .sidebar {
+        width: 200px;
+        background-color: #f0f0f0;
+        padding: 1rem;
+    }
+
+    .results {
+        flex: 1;
+        // background-color: red;
+        padding: 1rem;
+
+        .result {
+            display: flex;
+            margin-bottom: 1rem;
+            border: 1px solid #ccc;
+            padding: 0.5rem;
+            border-radius: 5px;
+
+
+            .item {
+                flex: 1;
+
+                .departureTime,.arrivalTime, .price {
+                    font-size: 20px;
+                    font-weight: bold;
+                }
+
+                .company {
+                    font-weight: bold;
+                }
+
+                .origin, .destination {
+                    font-size: 12px;
+                }
+
+                &:last-child {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+
+                
+            }
+        }
+
+    }
+}
+
+button {
+    border: none;
+    background-color: #5000ca;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+
+    &:disabled {
+        background-color: #ccc;
+        color: #333;
+    }
+}
+
+.filter {
+    .airline {
+        display: block;
+        margin-bottom: 5px;
+    }
+}
