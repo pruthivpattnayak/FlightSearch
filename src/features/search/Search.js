@@ -4,7 +4,6 @@ import styles from "./search.module.scss";
 import {
     fetchResultsAsync,
     updateFilter,
-    updatePagination,
 } from "./searchSlice";
 import moment from "moment";
 import { useEffect } from "react";
@@ -83,7 +82,7 @@ export function SearchResults() {
         return null;
     }
 
-    const { total, page, next, prev } = pagination;
+    const { page, next, prev } = pagination;
     const handleNext = () => {
         dispatch(fetchResultsAsync({ selectedAirlines, page: page + 1 }));
     };
@@ -102,12 +101,10 @@ export function SearchResults() {
                     // console.log(result);
                     const { company, segment, price = "100" } = result;
                     const {
-                        duration,
                         departureTime,
                         arrivalTime,
                         origin,
                         destination,
-                        connectionDuration,
                     } = segment[0];
                     return (
                         <div className={styles.result} key={result.id}>
@@ -176,7 +173,7 @@ export function Filter() {
     };
     useEffect(() => {
         dispatch(fetchResultsAsync({ selectedAirlines: selected }));
-    }, [selected]);
+    }, [selected,dispatch]);
     return (
         <div className={styles.filter}>
             <h3>Airlines</h3>
